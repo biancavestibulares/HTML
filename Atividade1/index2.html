@@ -10,22 +10,25 @@
     <meta name="description" content="Primeira página HTML requerida no exercício">
     <!-- Titulo da aba -->
     <title>Contato</title>
+
+    <!-- Import do CSS -->
+    <link rel="stylesheet" type="text/css" href="./css/style2.css">
 </head>
 
 <body>
-    <!-- Lista -->
-    <ul>
-        <li><a href="./index.html">Meu Perfil</a></li>
-        <li><a href="./index2.html">Contato</a></li>
-    </ul>
+    <!-- Menu -->
+    <div class="fundoMenu">
+        <ul id="menu">
+            <li><a href="./index.html">Meu Perfil</a></li>
+            <li><a href="./index2.html">Contato</a></li>
+        </ul>
+    </div>
 
-    <center>
-        <!-- Titulo -->
-        <h1>Entre em contato comigo</h1>
-    </center>
+    <!-- Titulo -->
+    <h1 id="txt">Entre em contato comigo</h1>
 
     <!-- Formulário -->
-    <form>
+    <form id="formulario">
         <label for="nome">Nome:</label> <br>
         <input type="text" id="nome">
         <br><br>
@@ -38,18 +41,18 @@
         <button>Enviar</button>
     </form>
 
-    <center>
-        <!-- Endereço -->
-        <h3>Endereço</h3>
-        <p>Bay Lake, FL 32836, Estados Unidos</p>
+    <!-- Endereço -->
+    <h3 id="txt">Endereço</h3>
 
+    <div class="endereco">
+        <p>Bay Lake, FL 32836, Estados Unidos</p>
         <!-- IFrame de mapa -->
         <iframe
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d224444.75441532955!2d-81.50747738440215!3d28.481073842183616!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88dd7e536aa54b81%3A0x66b8bcd58da841a!2sMagic%20Kingdom!5e0!3m2!1spt-BR!2sbr!4v1711999791596!5m2!1spt-BR!2sbr"
             width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
             referrerpolicy="no-referrer-when-downgrade">
         </iframe>
-    </center>
+    </div>
 </body>
 
 </html>

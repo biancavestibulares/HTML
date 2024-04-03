@@ -1,0 +1,87 @@
+/* Corpo da página web */
+body{
+    background-color: rgb(66, 78, 122);
+}
+
+/* Menu */
+.fundoMenu{
+    background-color: rgb(88, 101, 152);
+    width: 100%;
+    height: 40px;
+}
+
+#menu li{
+    display: inline;
+    padding: 15px;
+}
+
+#menu li a{
+    text-decoration: none;
+    color: rgb(186, 186, 186);
+    font-size: 25px;
+    transition: .8s;
+}
+
+#menu li a:hover{
+    text-decoration: none;
+    color: rgb(66, 78, 122);
+    transition: .5s;
+}
+
+/* Títulos */
+#txt{
+    text-align: center;
+    font-size: 30px;
+    color: rgb(36, 45, 75);
+    transition: .8s;
+}
+
+#txt:hover{
+    color:rgb(88, 101, 152);
+    transition: .5s;
+    cursor: pointer;
+}
+
+/* Formulário */
+#formulario{
+    border: 5px solid rgb(88, 101, 152);
+    text-align: center;
+    padding: 10px;
+}
+
+#formulario label{
+    font-size: 18px;
+    color: rgb(186, 186, 186);
+}
+
+#formulario input{
+    width: 460px;
+    height: 20px;
+}
+
+#formulario button{
+    color: rgb(186, 186, 186);
+    background-color: rgb(88, 101, 152);
+    border: none;
+    width: 100px;
+    height: 50px;
+    font-size: 18px;
+    transition: .8s;
+}
+
+#formulario button:hover{
+    color: rgb(88, 101, 152);
+    background-color: rgb(186, 186, 186);
+    transition: .5s;
+    transform: scale(1.2);
+    cursor: pointer;
+}
+
+/* Endereço */
+.endereco{
+    border: 5px solid rgb(88, 101, 152);
+    text-align: center;
+    padding: 10px;
+    font-size: 18px;
+    color: rgb(186, 186, 186);
+}
